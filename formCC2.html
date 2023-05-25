@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+</head>
+<body style="background-color: rgb(228, 209, 186);">
+    <hr color="brown" size="5">
+    <h1>Orders</h1>
+    <center><h3>Ratings</h3></center>
+    <center>
+        <table border="1px" style="border: 1px solid black; border-collapse: collapse;">
+            <thead>
+                <th>Book</th>
+                <th>Author</th>
+                <th>Year Published</th>
+                <th>Rating</th>
+            </thead>
+            <tr>
+                <td><center><img src="https://kbimages1-a.akamaihd.net/6e5d9a87-148d-4846-aecb-061f0a0bcf14/1200/1200/False/the-divine-comedy-51.jpg" title="The Divine Comedy" height="100" width="100"></center><br><center>The Divine Comedy</center></td>
+                <td><center>Dante Alighieri</center></td>
+                <td><center>1320</center></td>
+                <td><center>⭐⭐⭐⭐⭐</center></td>
+            </tr>
+            <tr>
+                <td><center><img src="https://m.media-amazon.com/images/I/51+RwHvs0tL.jpg" title="La Vita Nuova" height="100" width="100"></center><br><center>La Vita Nuova</center></td>
+                <td><center>Dante Alighieri</center></td>
+                <td><center>1294</center></td>
+                <td><center>⭐⭐⭐⭐⭐</center></td>
+            </tr>
+            <tr>
+                <td><center><img src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781625584595/moby-dick-9781625584595_hr.jpg" title="Moby-Dick" height="100" width="100"></center><br><center>Moby-Dick</center></td>
+                <td><center>Herman Melville</center></td>
+                <td><center>1851</center></td>
+                <td><center>⭐⭐⭐⭐⭐</center></td>
+            </tr>
+            <tr>
+                <td><center><img src="https://df83e96a84d8529ac3a1-b14d7eeab70e892e89289d791c854243.ssl.cf2.rackcdn.com/s/1/1616691639/northwest_298W/326.jpg" title="The Ambiguities" height="100" width="100"></center><br><center>The Ambiguities</center></td>
+                <td><center>Herman Melville</center></td>
+                <td><center>1854</center></td>
+                <td><center>⭐⭐⭐⭐⭐</center></td>
+            </tr>
+        </table>
+    </center>   
+    <center>
+        <h3>Choose Your Order</h3>
+            <input type="checkbox" name="book" id="the divine comedy" value="The Divine Comedy">
+            <label for=book>The Divine Comedy($7)</label><br>
+            <input type="checkbox" name="book" id="la vita nuova" value="La Vita Nuova">
+            <label for=book>La Vita Nuova($7)</label><br>
+            <input type="checkbox" name="book" id="Moby-Dick" value="Moby-Dick">
+            <label for=book>Moby-Dick($7)</label><br>
+            <input type="checkbox" name="book" id="The Ambiguities" value="The Ambiguities">
+            <label for=book>The Ambiguities($7)</label>   
+    </center> 
+    <p>
+        <center>
+            <h4>For order/s fill this form</h4>
+        </center>
+            <form>
+                <center>
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" name="name" id="name" required placeholder="Type your name"><br>
+                    <label for="address">Address:</label><br>
+                    <input type="text" name="address" id="address" required placeholder="Type your address"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email" required placeholder="Type your email"><br>
+                    <label for="message">Message:</label><br>
+                    <textarea name="mesage" id="message" cols="20" rows="5" placeholder="Your message"></textarea><br>
+                    <label></label>
+                    <input type="submit" name="submit" id="submit" value="Submit">
+                </center>
+            </form>
+            <a href="formCC1.html"><button>Back</button></a>
+            <hr color="brown" size="5">
+    </p>
+</body>
+</html>
